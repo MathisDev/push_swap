@@ -6,10 +6,9 @@
 /*   By: mamottet <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/20 16:05:11 by mamottet          #+#    #+#             */
-/*   Updated: 2023/07/20 17:05:27 by mamottet         ###   ########.fr       */
+/*   Updated: 2023/08/28 20:00:18 by mamottet         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 #include "push_swap.h"
 
 void	get_cost(t_stack **stack_a, t_stack **stack_b)

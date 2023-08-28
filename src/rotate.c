@@ -6,11 +6,9 @@
 /*   By: mamottet <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/14 16:13:57 by mamottet          #+#    #+#             */
-/*   Updated: 2023/08/14 16:13:58 by mamottet         ###   ########.fr       */
+/*   Updated: 2023/08/28 20:02:24 by mamottet         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-
 #include "push_swap.h"
 
 static void	rotate(t_stack **stack)

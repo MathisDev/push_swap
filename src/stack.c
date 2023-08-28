@@ -6,12 +6,10 @@
 /*   By: mamottet <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/14 16:15:14 by mamottet          #+#    #+#             */
-/*   Updated: 2023/08/14 16:15:17 by mamottet         ###   ########.fr       */
+/*   Updated: 2023/08/28 20:02:43 by mamottet         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 #include "push_swap.h"
-
 
 t_stack	*get_stack_bottom(t_stack *stack)
 {
@@ -43,7 +41,6 @@ t_stack	*stack_new(int value)
 	new->next = NULL;
 	return (new);
 }
-
 
 void	stack_add_bottom(t_stack **stack, t_stack *new)
 {
