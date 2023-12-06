@@ -3,7 +3,6 @@ CFLAGS	= -Wall -Werror -Wextra
 NAME	= push_swap
 
 SRC_PATH = src/
-OBJ_PATH = obj/
 
 SRC		= main.c \
 		input_check.c input_check_utils.c \
