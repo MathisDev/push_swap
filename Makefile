@@ -17,11 +17,8 @@ INCS	= -I ./includes/
 
 all: $(OBJ_PATH) $(NAME) 
 
-$(OBJ_PATH)%.o: $(SRC_PATH)%.c
-	$(CC) $(CFLAGS) -c $@ $(INCS)
-
 $(NAME): $(OBJS)
-	$(CC) $(CFLAGS) -o $(NAME)
+	$(CC) $(CFLAGS) $(SRC)-o $(NAME)
 
 clean:
 	rm -rf $(OBJ_PATH)
